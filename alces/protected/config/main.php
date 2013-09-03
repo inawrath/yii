@@ -11,6 +11,7 @@ return array(
 	'name'=>'Aplicacion Nueva',
         'language'=>'es',
         'sourceLanguage'=>'en',
+        'charset'=>'utf-8',
 	'defaultController'=>'login',
 
 	// preloading 'log' component
