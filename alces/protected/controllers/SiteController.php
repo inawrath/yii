@@ -34,7 +34,7 @@ class SiteController extends Controller
         
         // Load a published file
         //echo $assetsUrl;
-        Yii::app()->clientScript->registerScriptFile($assetsUrl . '/hola.js');
+        Yii::app()->clientScript->registerScriptFile($assetsUrl . '/hello.js');
         $this->render('index');
     }
 
