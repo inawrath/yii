@@ -9,6 +9,8 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Aplicacion Nueva',
+        'language'=>'es',
+        'sourceLanguage'=>'en',
 	'defaultController'=>'login',
 
 	// preloading 'log' component
